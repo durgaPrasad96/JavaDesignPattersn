@@ -40,7 +40,7 @@ public class Admin {
             System.out.println("Sending Messgaes");
              try{Thread.sleep(50);} catch(Exception e){}
             for(Hospitals hps: ad.hosp ) {
-                hps.setMessage("close all hospitals");
+                hps.setMessage("open hospitals");
             }
         });
         t1.start();
